@@ -1,0 +1,424 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = UIO_wIRQ
+Directory = /fpga/projects/UIO_wIRQ
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<design_1_rst_ps7_0_100M_0_synth_1>
+<design_1_auto_pc_0_synth_1>
+<design_1_axi_gpio_0_0_synth_1>
+<design_1_processing_system7_0_0_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<design_1_auto_pc_0>
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/simulation/fifo_generator_vlog_beh.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/5b9c/hdl/axi_data_fifo_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/4d88/hdl/axi_register_slice_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c83a/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c001/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+
+<design_1_axi_gpio_0_0>
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/9c6e/hdl/axi_gpio_v2_0_vh_rfs.vhd
+
+<design_1_processing_system7_0_0>
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/d4a8/hdl/axi_vip_v1_1_vl_rfs.sv
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_local_params.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_params.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_init.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_apis.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_unused_ports.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_gp.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_acp.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_hp.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_aw_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_b_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_w_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+
+<design_1_rst_ps7_0_100M_0>
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/d4a8/hdl/axi_vip_v1_1_vl_rfs.sv
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_local_params.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_params.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_init.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_apis.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_unused_ports.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_gp.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_acp.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_hp.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_aw_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_b_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_w_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_atc.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/9c6e/hdl/axi_gpio_v2_0_vh_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/simulation/fifo_generator_vlog_beh.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/5b9c/hdl/axi_data_fifo_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/4d88/hdl/axi_register_slice_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c83a/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c001/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+/home/roy-m/.Xil/Vivado-8122-kub18-fpga/PrjAr/_X_/UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./UIO_wIRQ.srcs/sources_1/bd/design_1/design_1.bd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/d4a8/hdl/axi_vip_v1_1_vl_rfs.sv
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_local_params.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_params.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_init.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_apis.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_unused_ports.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_gp.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_acp.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_hp.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/design_1_processing_system7_0_0.hwdef
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.c
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.h
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.c
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.h
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.tcl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.html
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_aw_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_b_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_w_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xml
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/9c6e/hdl/axi_gpio_v2_0_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xml
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/simulation/fifo_generator_vlog_beh.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/5b9c/hdl/axi_data_fifo_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/4d88/hdl/axi_register_slice_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c83a/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c001/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xml
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_ps7_0_axi_periph_0/design_1_ps7_0_axi_periph_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_ps7_0_axi_periph_0/design_1_ps7_0_axi_periph_0.xml
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xml
+./UIO_wIRQ.srcs/sources_1/bd/design_1/synth/design_1.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/sim/design_1.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/design_1_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+./UIO_wIRQ.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+./UIO_wIRQ.srcs/sources_1/bd/design_1/sim/design_1.protoinst
+./UIO_wIRQ.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<utils_1>
+None
+
+<design_1_rst_ps7_0_100M_0>
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/synth/design_1_rst_ps7_0_100M_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xml
+
+<design_1_auto_pc_0>
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/simulation/fifo_generator_vlog_beh.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/5b9c/hdl/axi_data_fifo_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/4d88/hdl/axi_register_slice_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c83a/hdl/axi_protocol_converter_v2_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/c001/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/1f5a/hdl/fifo_generator_v13_2_vhsyn_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/synth/design_1_auto_pc_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xml
+
+<design_1_axi_gpio_0_0>
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/9c6e/hdl/axi_gpio_v2_0_vh_rfs.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_ooc.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xml
+
+<design_1_processing_system7_0_0>
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xci
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_0.vh
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/d4a8/hdl/axi_vip_v1_1_vl_rfs.sv
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_local_params.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_vl_rfs.sv
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_params.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_reg_init.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_apis.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_unused_ports.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_gp.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_acp.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8c62/hdl/processing_system7_vip_v1_0_7_axi_hp.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_stub.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0_sim_netlist.vhdl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/design_1_processing_system7_0_0.hwdef
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.c
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.h
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.c
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init_gpl.h
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.tcl
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/ps7_init.html
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_aw_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_b_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_w_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_atc.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ipshared/8fd3/hdl/verilog/processing_system7_v5_5_trace_buffer.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/synth/design_1_processing_system7_0_0.v
+./UIO_wIRQ.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+<design_1_rst_ps7_0_100M_0>
+None
+
+<design_1_auto_pc_0>
+None
+
+<design_1_axi_gpio_0_0>
+None
+
+<design_1_processing_system7_0_0>
+None
+
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = /home/roy-m/vivado.jou
+Archived Location = ./UIO_wIRQ/vivado.jou
+
+Source File = /home/roy-m/vivado.log
+Archived Location = ./UIO_wIRQ/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+
